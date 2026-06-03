@@ -98,7 +98,7 @@
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
   .hero-visual .badge{position:absolute;bottom:0;left:50%;transform:translateX(-50%);z-index:3;
     background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:14px;
-    padding:11px 18px;display:inline-flex;align-items:center;gap:12px;white-space:nowrap;
+    padding:11px 18px;display:inline-flex;align-items:center;gap:12px;white-space:normal;max-width:calc(100% - 20px);
     box-shadow:0 16px 34px -16px rgba(13,23,21,.45)}
   .hero-visual .badge .dot{width:11px;height:11px;border-radius:50%;background:var(--patina);box-shadow:0 0 0 5px rgba(63,158,140,.22);flex:none}
   .hero-visual .badge b{font-weight:700;font-size:.9rem}
@@ -265,6 +265,20 @@
     .hero-trust{gap:20px}
     .foot-grid{grid-template-columns:1fr}
     .sec{padding:70px 0}
+    .logo{font-size:1.08rem;gap:9px}
+    .logo-badge{width:36px;height:36px}
+    .nav-cta .btn-primary{display:none}
+    .hero{padding:54px 0 76px}
+    .hero h1{font-size:2.3rem}
+    .hero p.lead{font-size:1.06rem}
+    .hero-actions{flex-direction:column;align-items:stretch;width:100%}
+    .hero-actions .btn{width:100%;justify-content:center}
+    .hero-visual{min-height:340px}
+    .form-card{padding:18px}
+    .why-card{padding:28px 22px}
+    .why-card h3{font-size:1.7rem}
+    .why-card .stat-row{gap:18px}
+    .svc,.rev{padding:24px 22px}
   }
   .mobile-menu{display:none;flex-direction:column;gap:4px;position:fixed;top:62px;left:0;right:0;
     background:var(--paper);z-index:49;padding:18px 28px 26px;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
